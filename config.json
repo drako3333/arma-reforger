@@ -1,0 +1,26 @@
+{
+    "dedicatedServerId": "ar-gm-%profilename",
+    "region": "NA",
+    "gameHostBindAddress": "",
+    "gameHostBindPort": 2001,
+    "gameHostRegisterBindAddress": "",
+    "gameHostRegisterPort": 2001,
+    "adminPassword" : "password",
+  "game": {
+    "name": "servername",
+    "scenarioId": "{98D1DA94DD085044}Missions/ConflictWithoutAIs.conf",
+    "playerCountLimit": 64,
+    "visible": true,
+    "gameMode": "",
+    "supportedGameClientTypes": [
+      "PLATFORM_PC"
+    ],
+    "gameProperties": {
+      "serverMaxViewDistance": 1600,
+      "battleEye": true,
+      "fastValidation": true
+    },
+    "mods": [
+    ]
+  }
+}
