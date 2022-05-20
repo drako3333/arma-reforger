@@ -1,13 +1,13 @@
 {
     "dedicatedServerId": "",
-    "region": "US",
+    "region": "CA",
     "adminPassword": "Password",
     "gameHostBindAddress": "0.0.0.0",
     "gameHostBindPort": 20101,
     "gameHostRegisterBindAddress": "192.99.20.143",
     "gameHostRegisterPort": 20101,
     "game": {
-        "name": "Arma Reforger Conflict",
+        "name": "Arma Reforger Conflict | Gamerhostinghub.ca",
         "password": "",
         "scenarioId": "{ECC61978EDCC2B5A}Missions/23_Campaign.conf",
         "playerCountLimit": 64,
