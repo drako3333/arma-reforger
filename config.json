@@ -1,26 +1,34 @@
 {
-    "adminPassword": "Password",
     "dedicatedServerId": "",
-    "game": {
-        "gameMode": "",
-        "gameProperties": {
-            "battleEye": true,
-            "fastValidation": true,
-            "serverMaxViewDistance": 1600
-        },
-        "mods": [],
-        "name": "Arma Reforger Conflit / Gamerhostinghub.ca",
-        "playerCountLimit": 64,
-        "scenarioId": "{ECC61978EDCC2B5A}Missions/23_Campaign.conf",
-        "supportedGameClientTypes": [
-            "PLATFORM_PC"
-        ],
-        "visible": true
-    },
-    "gameHostBindAddress": "",
-    "gameHostBindPort": "2001,",
+    "region": "US",
+    "adminPassword": "Password",
+    "gameHostBindAddress": "0.0.0.0",
+    "gameHostBindPort": 20101,
     "gameHostRegisterBindAddress": "192.99.20.143",
-    "gameHostRegisterPort": "2001,",
-    "playerCountLimit": ",",
-    "region": "US"
+    "gameHostRegisterPort": 20101,
+    "game": {
+        "name": "Arma Reforger Conflict",
+        "password": "",
+        "scenarioId": "{ECC61978EDCC2B5A}Missions/23_Campaign.conf",
+        "playerCountLimit": 64,
+        "visible": true,
+        "autoJoinable": true,
+        "gameProperties": {
+            "serverMaxViewDistance": 1600,
+            "serverMinGrassDistance": 50,
+            "networkViewDistance": 1000,
+            "disableThirdPerson": false,
+            "fastValidation": true,
+            "battlEye": true,
+            "missionHeader": {
+                "m_iPlayerCount": 40,
+                "m_eEditableGameFlags": 6,
+                "m_eDefaultGameFlags": 6,
+                "other": "values"
+            }
+        },
+        "mods": [
+
+        ]
+    }
 }
